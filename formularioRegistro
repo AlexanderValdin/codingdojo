@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formulario de Registro</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Registro</h1>
+        <form action="" method="post">
+            <p>
+                <label for="name">Nombre :</label>
+                <input type="text" name="name">
+            </p>
+
+            <p>
+                <label for="apellido">Apellido :</label>
+                <input type="text" name="apellido">
+            </p>
+
+            <p>
+                <label for="email">Email :</label>
+                <input type="email" name="email">
+            </p>
+
+            <p>
+                <label for="contraseña">Contraseña :</label>
+                <input type="password" name="contraseña">
+            </p>
+
+            <p>
+                <label for="confirmar">Confirmar :</label>
+                <input type="password" name="confirmar">
+            </p>
+
+            <p>
+                <label for="cumpleaños">Cumpleaños :</label>
+                <input type="date" name="cumpleaños">
+            </p>
+
+            <p>
+                <input checked="checked" name="gender" type="radio" value="hombre" /> Hombre <input name="gender" type="radio" value="mujer" /> Mujer <input name="gender" type="radio" value="otro" /> Otro <br>
+            </p>
+
+            <p>Una breve descripción de ti</p>
+            <p><textarea name="descripción">Descripción</textarea></p>
+            
+            <p>
+                <label for="lenguaje">Lenguaje favorito :</label>
+                <select name="lenguaje">
+                    <option selected="selected" value="java">Java</option>
+                    <option value="rubi">Ruby</option>
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar" />
+            </p>
+
+        </form>
+    </div>
+</body>
+</html>
